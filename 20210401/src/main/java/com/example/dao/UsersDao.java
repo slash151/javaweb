@@ -14,4 +14,6 @@ public interface UsersDao {
 
     //查询商品
     Product gainProduct(int id);
+
+
 }

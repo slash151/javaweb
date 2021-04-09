@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import java.beans.IndexedPropertyDescriptor;
 import java.io.IOException;
 
 @WebServlet("/login")
@@ -46,7 +45,7 @@ public class LoginAndRegisterServlet extends HttpServlet {
             User user = new User(name, pwd, tel, address, balance);
             int b = new UserServiceImpl().insertUser(user);
             if (b != 0) {
-                response.sendRedirect("login-in.jsp");
+                response.sendRedirect("login.jsp");
             } else {
                 session.setAttribute("msg", "注册失败");
                 response.sendRedirect("register.jsp");

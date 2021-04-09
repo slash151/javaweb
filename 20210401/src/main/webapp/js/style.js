@@ -146,8 +146,8 @@ $(document).ready(function(e) {
 
 // 验证是否有账户登录
 var name = localStorage.loginName;
-if (name == "undefined") {
-	$(".sign-in").append('<a class="sign-in-account" href="login-in.jsp"><img class="sign-in-img" src="images/signIn.svg" />Sign-in</a>');
+if (name ==  "undefined") {
+	$(".sign-in").append('<a class="sign-in-account" href="login.jsp"><img class="sign-in-img" src="images/signIn.svg" />Sign-in</a>');
 } else {
 	$(".sign-in").append('<a class="sign-in-account"><img class="sign-in-img" src="images/signIn.svg" />'+name+'</a>');
 }

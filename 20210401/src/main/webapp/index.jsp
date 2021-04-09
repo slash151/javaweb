@@ -1,11 +1,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" errorPage="error.jsp" %>
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
-    <link rel="icon" href="${pageContext.request.contextPath}/photo/logo.png" sizes="16x16"
+    <link rel="icon" href="${pageContext.request.contextPath}/images/logo.png/logo.png" sizes="16x16"
           type="${pageContext.request.contextPath}/image/png">
     <title>苹果官网</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/reset.min.css">
@@ -54,7 +54,7 @@
         <span>iphone 12 pro max<br></span>
         <span id="">It's a leap year.<br></span>
         <span style="font-size: 15px;line-height: 50px;">From $41.62/mo. or $999 before trade‑in</span><br>
-        <a href="buy-ipone.jsp?pid=2">
+        <a href="buy.jsp?pid=11">
             <!-- <img src="images/iphone_banner1.jpg" height="100%" width="100%" alt=""> --></a>
     </div>
     <div class="img">
@@ -72,7 +72,7 @@
             <h1>MacBook Pro 16''</h1>
             <h2>一身才华，一触，即发。</h2>
         </div>
-        <a href="buy-ipone.jsp?pid=003">
+        <a href="buy.jsp?pid=3">
             <!-- <img src="images/macbook_banner3.jpg" height="100%" width="100%" alt=""> --></a>
     </div>
     <span class="prev" style="left:0;">&lt;</span>

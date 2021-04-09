@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
-    <link rel="icon" href="${pageContext.request.contextPath}/photo/logo.png" sizes="16x16"
+    <link rel="icon" href="${pageContext.request.contextPath}/images/logo.png/logo.png" sizes="16x16"
           type="${pageContext.request.contextPath}/image/png">
     <title>注册苹果</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
@@ -43,7 +43,7 @@
     <div class="support-title">
         <h3 class="apple-id">Apple ID
             <ul class="Bug-title">
-                <li><a href="login-in.jsp">登录</a></li>
+                <li><a href="login.jsp">登录</a></li>
                 <li>创建您的 Apple ID</li>
                 <li><a href="#">常见问题解答</a></li>
             </ul>

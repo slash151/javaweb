@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="20210329:war exploded">
+    <output-path>$PROJECT_DIR$/../../app/JspStudy/tomcat/webapps/20210329</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="20210329/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="20210329" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

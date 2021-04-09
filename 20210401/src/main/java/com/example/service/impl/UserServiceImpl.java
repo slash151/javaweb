@@ -10,7 +10,7 @@ import java.util.List;
 
 public class UserServiceImpl implements UsersService {
     UserDaoImpl udi = new UserDaoImpl();
-    UsersDao usersDao;
+    //UsersDao usersDao;
 
     @Override
     public boolean validateUsersByUsernameAndPassword(String username, String password) {
@@ -24,12 +24,12 @@ public class UserServiceImpl implements UsersService {
 
     @Override
     public int insertUser(User user) {
-        return usersDao.insertUser(user);
+        return udi.insertUser(user);
     }
 
     @Override
     public Product gainProduct(int id) {
-        return usersDao.gainProduct(id);
+        return udi.gainProduct(id);
     }
 
 }
